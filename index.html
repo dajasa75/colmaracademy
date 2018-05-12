@@ -25,13 +25,23 @@
       <nav>
           <div class="logo">
              <div class="logo-image">
-                 <img src="resources/images/ic-logo.svg" />                 
-             </div>
-             <div class="logo-name">
+                 <img src="resources/images/ic-logo.svg" />                                  
+             </div>             
+             <div class="logo-name logo-name-mobile">
                  <h3>COLMAR <span class="academy"> ACADEMY </span></h3>
+             </div>
+             <div class="logo-image-mobile">
+                 <img src="resources/images/ic-on-campus.svg" />                                  
+             </div>
+             <div class="logo-image-mobile">
+                 <img src="resources/images/ic-online.svg" />                                  
              </div>       
+             <div class="logo-image-mobile">
+                 <img src="resources/images/ic-login.svg" />                                  
+             </div>
+                    
           </div>
-          <div class="logo-nav">
+          <div class="logo-nav logo-name-mobile">
               <ul>
                   <li><a>On campus</a></li>
                   <li><a>Online</a></li>
@@ -70,8 +80,16 @@
           <div class="practicing-rightbox">
               <div class="rightbox">
                  <div class="rightbox-img">
-                     <img src="resources/images/information-orientation.jpg" />
+                     <picture>
+                        <source media ="(min-width:481px)"
+                                srcset="resources/images/information-orientation.jpg" >
+                        <source media ="(max-width:480px)"
+                                srcset="resources/images/information-orientation-mobile.jpg" >
+                        <img src="resources/images/information-orientation.jpg" alt="orientation">
+                     </picture>
+                                          
                  </div>
+                 
                  <div class="rightbox-text">
                       <h1>Orientation date</h1>
                       <p class="text">Tue 10/11 & Wed 10/12 8am-3pm</p>
@@ -79,9 +97,15 @@
                  </div>      
               </div>
               <div class="rightbox">
-                <div class="rightbox-img">
-                    <img src="resources/images/information-campus.jpg" />
-                </div>
+                  <div class="rightbox-img">
+                    <picture>
+                        <source media ="(min-width:481px)"
+                                srcset="resources/images/information-campus.jpg" >
+                        <source media ="(max-width:480px)"
+                                srcset="resources/images/information-campus-mobile.jpg" >
+                        <img src="resources/images/information-campus.jpg" alt="orientation">
+                     </picture>
+                  </div>
                 <div class="rightbox-text">
                     <h1>Our campus</h1>
                     <p class="text">Findwhich campus is close by you</p>
@@ -90,7 +114,13 @@
               </div>
               <div class="rightbox rightbox-bottom">
                  <div class="rightbox-img">
-                     <img src="resources/images/information-guest-lecture.jpg" />
+                     <picture>
+                        <source media ="(min-width:481px)"
+                                srcset="resources/images/information-guest-lecture.jpg" >
+                        <source media ="(max-width:480px)"
+                                srcset="resources/images/information-guest-lecture-mobile.jpg" >
+                        <img src="resources/images/information-guest-lecture.jpg" alt="orientation">
+                     </picture>
                  </div>
                  <div class="rightbox-text">
                       <h1>Our guest lecture</h1>
@@ -108,6 +138,7 @@
                   <div class="learning">
                      <div class="first-row box-b">
                          <div class="top box-s">
+                             
                              <div class="image">
                                  <img src="resources/images/course-software.jpg" />
                              </div>

@@ -1,3 +1,9 @@
+/* ********************************************************** */
+/* GENERAL PROPERTIES */
+/* ********************************************************** */
+
+
+
 html, body {
     font-size:16px;
     font-family:verdana;
@@ -131,14 +137,14 @@ html, body {
 }
 
 @media only screen and (max-width:480px) {
-    #intro {
-        display:flex;
-        flex-direction:column;  
-        background-color:silver;
-    }
-    
-    #intro .intro-img {
-                width:100vw;                 
+            #intro {
+                display:flex;
+                flex-direction:column;  
+                background-color:silver;
+            }
+
+            #intro .intro-img {
+                        width:100vw;                 
             }
 
             #intro .intro-img img {    
@@ -711,14 +717,6 @@ html, body {
             }
 }
 
-
-/* ********************************************************** */
-/* MOBILE VERSION under 480px */
-/* ********************************************************** */
-
-@media only screen and (max-width:480px) {
-    
-}
 
 
 
